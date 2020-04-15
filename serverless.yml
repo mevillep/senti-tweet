@@ -7,7 +7,7 @@ provider:
   runtime: python3.6
 
 functions:
-  numpy:
+  get-tweet:
     handler: handler.main
 
 
