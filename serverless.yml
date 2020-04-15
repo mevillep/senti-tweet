@@ -1,6 +1,6 @@
 # serverless.yml
 
-service: numpy-test
+service: senti-tweet
 
 provider:
   name: aws
