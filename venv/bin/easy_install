@@ -1,4 +1,4 @@
-#!/Users/Meville/Desktop/serverless/numpy-test/venv/bin/python
+#!/Users/Meville/Desktop/serverless/senti-tweet/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
