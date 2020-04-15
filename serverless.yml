@@ -1,0 +1,21 @@
+# serverless.yml
+
+service: numpy-test
+
+provider:
+  name: aws
+  runtime: python3.6
+
+functions:
+  numpy:
+    handler: handler.main
+
+
+# serverless.yml
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: true
