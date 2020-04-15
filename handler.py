@@ -8,7 +8,7 @@ def main(event, context):
 
     print("Access twitter data")
     #print(a)
-    #list_of_tweets = query_tweets("Modi", 5)
+    list_of_tweets = query_tweets("Modi", 5)
 
     #print the retrieved tweets to the screen:
     for tweet in query_tweets("Modi", 5):
