@@ -1,3 +1,5 @@
+org: mevillepereira10
+app: senti-tweet
 # serverless.yml
 
 service: senti-tweet
